@@ -129,9 +129,12 @@
                         <div class="relative"></div>
                     {% endfor %}
                     {% for subsection in section.subsections %}
-                        {% if subsection == "footer/_index.md" %} {% continue %} {% endif %}                        
+                        {% if subsection == "footer/_index.md" %} {% continue %} {% endif %}    
+
                         {% set button_id = subsection ~ "-menu-btn" | slugify %}
                         {% set title = subsection | replace(from='/_index.md', to='') %}
+                        {% if title == "people" %} {% continue %} {% endif %}    
+
                         <div class="relative">
                         <!-- <button type="button" id="{{button_id}}" class="nav_btn text-gray-900 group inline-flex items-center space-x-2 text-lg leading-6 hover:text-blue-300 focus:outline-none transition ease-in-out duration-150">
                             <span>{{ title }}</span>
