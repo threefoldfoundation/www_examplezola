@@ -8,13 +8,19 @@ weight: 1
 ---
 
 
-
+<div class="container mx-auto">
 
 <!-- section 1 (header) -->
+<br>
+
+<br>
 
 {% row(margin="header" padding="both") %}
 
-# MyTrunk {#text-8xl}
+
+
+
+# MyTrunk
 
 
 My trunk is an idea that a good friend and I had a long time ago. This was at the start of the whole .com boom where everyone that had an idea got millions to execute on it. Many of these initial ideas failed, some of them became the monopolies of today, Google, Facebook and Amazon. We never launched the mytrunk.com domain and this site is an ode to that lost opportunity in which I organize my daily online life.
@@ -153,8 +159,10 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit
 
 {% end %}
 
-{% row(margin="header" padding="none") %}
+{% row(margin="header" padding="bottom") %}
 
     ![Image](placeholder.jpg#medium#mx-auto)
 
 {% end %}
+
+</div>
