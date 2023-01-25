@@ -5,11 +5,8 @@ consists of a featured blog row,
 a paginated list of posts (sorted by date), 
 and a side nav for category and featured post navigation
 -->
-
 {% block content %}
-
 <main>
-
     <!--sets global featured variable as the most recent post with the isFeatured tag-->
     {%- set section = get_section(path="blog/_index.md") %}
     {% for page in section.pages %}
@@ -20,11 +17,11 @@ and a side nav for category and featured post navigation
     {% endfor %}
     
     {% include "partials/featuredBlog.html" %}
-
-    <div class="flex flex-col md:flex-row">
-        {% include "partials/blogPosts.html" %}
+    <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row">
+            {% include "partials/blogPosts.html" %}
         {% include "partials/blogSidebar.html" %}
+        </div>
     </div>
- </main> 
- 
- {% endblock content %}
+</main>
+{% endblock content %}

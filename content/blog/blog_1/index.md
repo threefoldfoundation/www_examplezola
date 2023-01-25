@@ -10,6 +10,7 @@ taxonomies:
     categories: [cat1, cat2, cat3, cat4, cat5]
 extra:
     imgPath: "https://place-hold.it/300"
+    featured: true
 ---
  
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatum earum iusto quibusdam, sed ad maiores, consequatur totam expedita inventore hic? Quos labore temporibus optio dolore accusantium vel explicabo quibusdam? 
