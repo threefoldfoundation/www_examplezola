@@ -126,17 +126,22 @@
                         <a href="{{page.permalink}}" class="text-lg leading-6 text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
                             {{page.title}}
                         </a>
-                        <div class="relative">
-                        </div>
+                        <div class="relative"></div>
                     {% endfor %}
                     {% for subsection in section.subsections %}
                         {% if subsection == "footer/_index.md" %} {% continue %} {% endif %}                        
                         {% set button_id = subsection ~ "-menu-btn" | slugify %}
+                        {% set title = subsection | replace(from='/_index.md', to='') %}
                         <div class="relative">
-                        <button type="button" id="{{button_id}}" class="nav_btn text-gray-900 group inline-flex items-center space-x-2 text-lg leading-6 hover:text-blue-300 focus:outline-none transition ease-in-out duration-150">
-                            <span>{{ subsection }}</span>
+                        <!-- <button type="button" id="{{button_id}}" class="nav_btn text-gray-900 group inline-flex items-center space-x-2 text-lg leading-6 hover:text-blue-300 focus:outline-none transition ease-in-out duration-150">
+                            <span>{{ title }}</span>
                             <div class="-rotate-90 transition-transform"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg></div>
-                        </button>
+                        </button> -->
+
+                        <a href="/{{title}}" class="text-lg leading-6 text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150 mt-0">
+                            {{title}}
+                        </a>
+                        <div class="relative"></div>
                         </div>
                     {% endfor %}
                     </nav>
