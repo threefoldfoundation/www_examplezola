@@ -123,6 +123,11 @@ Parameters:
         {% set col_class = col_class ~ " flex-1 " %}
     {% endif %}
 
+    {% if "right" in style %}
+    {% set row_class = row_class ~ " text-right items-center mx-auto " %}
+    {% set col_class = col_class ~ " flex-1 " %}
+{% endif %}
+
     {% if "items-end" in style %}
     {% set row_class = row_class ~ " lg:items-end" %}
     {% set col_class = col_class ~ " flex-1 " %}

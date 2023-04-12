@@ -17,8 +17,25 @@ weight: 1
 
 {% row(margin="header" padding="both") %}
 
+![placeholder](placeholder.jpg#mx-auto)
 
-# Title
+|||
+
+# Title(align left)
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident excepturi commodi ducimus, neque molestias dolorem ipsum officia nisi iusto possimus?
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iste sed fugiat qui, eligendi quidem aperiam ducimus veniam ab. Minima quasi esse enim commodi odit.
+
+<button>[Like!](/)</button>
+
+
+{% end %}
+
+{% row(style="right" margin="header" padding="bottom") %}
+
+
+# Title(align right)
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident excepturi commodi ducimus, neque molestias dolorem ipsum officia nisi iusto possimus?
 
@@ -65,6 +82,25 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 
 <br>
 <br>
+
+</div>
+<!-- section full width -->
+
+{% row(padding="both" bgColor="#d1d1d1" margin="none") %}
+
+
+# Title(full screen)
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident excepturi commodi ducimus, neque molestias dolorem ipsum officia nisi iusto possimus?
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iste sed fugiat qui, eligendi quidem aperiam ducimus veniam ab. Minima quasi esse enim commodi odit.
+
+<button>[Like!](/)</button>
+
+
+{% end %}
+
+<div class="container mx-auto">
 
 <!-- section 3 -->
 
