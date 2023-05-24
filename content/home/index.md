@@ -15,7 +15,7 @@ weight: 1
 
 <br>
 
-{% row(margin="header" padding="both") %}
+{% row(margin="header" padding="bottom") %}
 
 ![placeholder](placeholder.jpg#mx-auto)
 
@@ -32,7 +32,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iste sed fugiat 
 
 {% end %}
 
-{% row(style="right" margin="header" padding="bottom") %}
+{% row(style="right" reverse="rightreserve" margin="header" padding="bottom") %}
 
 
 # Title(align right)
@@ -86,7 +86,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 </div>
 <!-- section full width -->
 
-{% row(padding="both" bgColor="#d1d1d1" margin="none") %}
+{% row(style="center" padding="both" bgColor="#d1d1d1" margin="none") %}
 
 
 # Title(full screen)
