@@ -122,7 +122,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, aliquid ab bland
 
 {% row(style="" margin="narrow" padding="top") %}
 
-![Image](placeholder.jpg#sm#mx-auto)
+![Image](placeholder.jpg#mx-auto)
 
 |||
 
@@ -132,7 +132,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quas, aliquid ab blandi
 
 |||
 
-![Image](placeholder.jpg#sm#mx-auto)
+![Image](placeholder.jpg#mx-auto)
 
 |||
 
@@ -146,7 +146,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quas, aliquid ab blandi
 
 {% row(style="" margin="narrow" padding="bottom") %}
 
-![Image](placeholder.jpg#sm#mx-auto)
+![Image](placeholder.jpg#mx-auto)
 
 |||
 
@@ -156,7 +156,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quas, aliquid ab blandi
 
 |||
 
-![Image](placeholder.jpg#sm#mx-auto)
+![Image](placeholder.jpg#mx-auto)
 
 |||
 
